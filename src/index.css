@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  padding: 16px 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  z-index: 100;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 32px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #084960;
+}
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-subtitle {
+  color: #ccc;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 20px auto 60px;
+}
+
+.principles-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.principle-card {
+  background-color: #0A0A0A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 0 8px rgba(0, 174, 239, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.principle-card:hover {
+  box-shadow: 0 0 16px rgba(0, 174, 239, 0.3);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer {
+  text-align: center;
+  padding: 32px;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 80px;
+}
