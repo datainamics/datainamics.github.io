@@ -1,2 +1,0 @@
-# datainamics.github.io
-website
