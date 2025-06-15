@@ -1,0 +1,21 @@
+{
+  "short_name": "datainamics",
+  "name": "datainamics - Applied AI Research Lab",
+  "description": "Applied AI Research Lab based in Morocco, bridging cutting-edge AI research to deployable solutions",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00AEEF",
+  "background_color": "#0a0a0a",
+  "categories": ["education", "research", "technology"],
+  "lang": "en",
+  "dir": "ltr",
+  "orientation": "portrait-primary"
+}
